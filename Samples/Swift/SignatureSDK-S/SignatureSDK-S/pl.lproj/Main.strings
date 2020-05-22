@@ -1,0 +1,210 @@
+
+/* Class = "UILabel"; text = "Y Padding:"; ObjectID = "0SF-2V-9pc"; */
+"0SF-2V-9pc.text" = "Y Padding:";
+
+/* Class = "UILabel"; text = "Height:"; ObjectID = "1rK-Nq-5MP"; */
+"1rK-Nq-5MP.text" = "Height:";
+
+/* Class = "UITextField"; placeholder = "Enter X Padding"; ObjectID = "1y7-LP-16t"; */
+"1y7-LP-16t.placeholder" = "Enter X Padding";
+
+/* Class = "UITextField"; text = "0.0"; ObjectID = "1y7-LP-16t"; */
+"1y7-LP-16t.text" = "0.0";
+
+/* Class = "UILabel"; text = "Clip Output to Signature Bounds:"; ObjectID = "2Bz-iD-o8f"; */
+"2Bz-iD-o8f.text" = "Clip Output to Signature Bounds:";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "4Nx-hb-9FJ"; */
+"4Nx-hb-9FJ.normalTitle" = "CANCEL";
+
+/* Class = "UITextField"; placeholder = "Signee name"; ObjectID = "6HZ-iL-JEp"; */
+"6HZ-iL-JEp.placeholder" = "Signee name";
+
+/* Class = "UILabel"; text = "Image Padding Settings"; ObjectID = "6bb-YN-YBb"; */
+"6bb-YN-YBb.text" = "Image Padding Settings";
+
+/* Class = "UILabel"; text = "Copyright © 2003 - 2015 Wacom Company Limited    All Rights Reserved"; ObjectID = "88F-eQ-Cwj"; */
+"88F-eQ-Cwj.text" = "Copyright © 2003 - 2015 Wacom Company Limited    All Rights Reserved";
+
+/* Class = "UILabel"; text = "iPad;123456788987654;driver=23546"; ObjectID = "8cw-aU-bXB"; */
+"8cw-aU-bXB.text" = "iPad;123456788987654;driver=23546";
+
+/* Class = "UILabel"; text = "When:"; ObjectID = "9Qc-Gw-hZK"; */
+"9Qc-Gw-hZK.text" = "When:";
+
+/* Class = "UILabel"; text = "Render Watermark:"; ObjectID = "9v7-dx-45C"; */
+"9v7-dx-45C.text" = "Render Watermark:";
+
+/* Class = "UILabel"; text = "Bank Loan"; ObjectID = "AcX-lM-x8y"; */
+"AcX-lM-x8y.text" = "Bank Loan";
+
+/* Class = "UILabel"; text = "09/09/14"; ObjectID = "CFe-zd-RJ6"; */
+"CFe-zd-RJ6.text" = "09/09/14";
+
+/* Class = "UILabel"; text = "Wacom Signature SDK for iOS 1.0.17"; ObjectID = "CxU-l8-Ghx"; */
+"CxU-l8-Ghx.text" = "Wacom Signature SDK for iOS 1.0.17";
+
+/* Class = "UILabel"; text = "Document Key Type:"; ObjectID = "Fo3-OP-qqX"; */
+"Fo3-OP-qqX.text" = "Document Key Type:";
+
+/* Class = "UILabel"; text = "Who:"; ObjectID = "FrK-Gj-yGm"; */
+"FrK-Gj-yGm.text" = "Who:";
+
+/* Class = "UITextField"; placeholder = "Enter Y Padding"; ObjectID = "Fyn-HQ-pPn"; */
+"Fyn-HQ-pPn.placeholder" = "Enter Y Padding";
+
+/* Class = "UITextField"; text = "0.0"; ObjectID = "Fyn-HQ-pPn"; */
+"Fyn-HQ-pPn.text" = "0.0";
+
+/* Class = "UILabel"; text = "Select Signature File to Open:"; ObjectID = "Gq4-Zd-lL9"; */
+"Gq4-Zd-lL9.text" = "Select Signature File to Open:";
+
+/* Class = "UILabel"; text = "SHA-1"; ObjectID = "IAC-kk-8fX"; */
+"IAC-kk-8fX.text" = "SHA-1";
+
+/* Class = "UILabel"; text = "640x480"; ObjectID = "IiY-pF-7lt"; */
+"IiY-pF-7lt.text" = "640x480";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "J47-74-r9Q"; */
+"J47-74-r9Q.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Transparent Background:"; ObjectID = "J7Q-pg-sXF"; */
+"J7Q-pg-sXF.text" = "Transparent Background:";
+
+/* Class = "UILabel"; text = "Why:"; ObjectID = "KWb-ru-GPM"; */
+"KWb-ru-GPM.text" = "Why:";
+
+/* Class = "UILabel"; text = "Integrity OK"; ObjectID = "Ma8-oh-IuJ"; */
+"Ma8-oh-IuJ.text" = "Integrity OK";
+
+/* Class = "UILabel"; text = "Driver:"; ObjectID = "N4X-l7-4th"; */
+"N4X-l7-4th.text" = "Driver:";
+
+/* Class = "UILabel"; text = "Width:"; ObjectID = "O5P-vK-Qwh"; */
+"O5P-vK-Qwh.text" = "Width:";
+
+/* Class = "UILabel"; text = "Integrity Status:"; ObjectID = "Oxw-Zp-uzx"; */
+"Oxw-Zp-uzx.text" = "Integrity Status:";
+
+/* Class = "UILabel"; text = "Capture Area:"; ObjectID = "Q93-2b-rdg"; */
+"Q93-2b-rdg.text" = "Capture Area:";
+
+/* Class = "UILabel"; text = "Signature Key Type:"; ObjectID = "QD9-qp-CTf"; */
+"QD9-qp-CTf.text" = "Signature Key Type:";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "QDa-K2-X4X"; */
+"QDa-K2-X4X.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Hash Type:"; ObjectID = "Rnp-5n-f6Z"; */
+"Rnp-5n-f6Z.text" = "Hash Type:";
+
+/* Class = "UILabel"; text = "27 Extra Data Items:"; ObjectID = "TGm-up-Z8S"; */
+"TGm-up-Z8S.text" = "27 Extra Data Items:";
+
+/* Class = "UILabel"; text = "Encode Signature Data:"; ObjectID = "TUm-jb-Ueg"; */
+"TUm-jb-Ueg.text" = "Encode Signature Data:";
+
+/* Class = "UILabel"; text = "Hash Integrity Status:"; ObjectID = "VCB-gp-sJX"; */
+"VCB-gp-sJX.text" = "Hash Integrity Status:";
+
+/* Class = "UITextField"; placeholder = "Enter filename"; ObjectID = "VnE-0h-4vW"; */
+"VnE-0h-4vW.placeholder" = "Enter filename";
+
+/* Class = "UILabel"; text = "MD5 Mac Key:"; ObjectID = "WAt-iN-zQq"; */
+"WAt-iN-zQq.text" = "MD5 Mac Key:";
+
+/* Class = "UILabel"; text = "Machine OS:"; ObjectID = "XUB-TQ-hbZ"; */
+"XUB-TQ-hbZ.text" = "Machine OS:";
+
+/* Class = "UILabel"; text = "iOS 7.1.1"; ObjectID = "Xay-QT-ZxR"; */
+"Xay-QT-ZxR.text" = "iOS 7.1.1";
+
+/* Class = "UILabel"; text = "123x412"; ObjectID = "Yfz-z0-OHa"; */
+"Yfz-z0-OHa.text" = "123x412";
+
+/* Class = "UILabel"; text = "Missing"; ObjectID = "aUU-WX-UMl"; */
+"aUU-WX-UMl.text" = "Missing";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "aaG-t0-orx"; */
+"aaG-t0-orx.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "SHA-512"; ObjectID = "cGu-qR-yyA"; */
+"cGu-qR-yyA.text" = "SHA-512";
+
+/* Class = "UILabel"; text = "Signature Area:"; ObjectID = "cP9-b3-rDb"; */
+"cP9-b3-rDb.text" = "Signature Area:";
+
+/* Class = "UILabel"; text = "SHA-512"; ObjectID = "czm-jm-vdc"; */
+"czm-jm-vdc.text" = "SHA-512";
+
+/* Class = "UILabel"; text = "Who:"; ObjectID = "d40-wX-XjM"; */
+"d40-wX-XjM.text" = "Who:";
+
+/* Class = "UITextField"; text = "600"; ObjectID = "eYd-P3-CMw"; */
+"eYd-P3-CMw.text" = "600";
+
+/* Class = "UILabel"; text = "Copyright © 2003 - 2015 Wacom Company Limited    All Rights Reserved"; ObjectID = "eie-rv-taK"; */
+"eie-rv-taK.text" = "Copyright © 2003 - 2015 Wacom Company Limited    All Rights Reserved";
+
+/* Class = "UILabel"; text = "SHA-512"; ObjectID = "elr-Ek-599"; */
+"elr-Ek-599.text" = "SHA-512";
+
+/* Class = "UILabel"; text = "Signature Integrity Settings"; ObjectID = "fFD-qk-EuD"; */
+"fFD-qk-EuD.text" = "Signature Integrity Settings";
+
+/* Class = "UILabel"; text = "Evalutaion License: Some Company Name Serial: 12345678-AAA Valid From: xx/xx/xx Until:xx/xx/xx"; ObjectID = "gyh-Ms-tP1"; */
+"gyh-Ms-tP1.text" = "Evalutaion License: Some Company Name Serial: 12345678-AAA Valid From: xx/xx/xx Until:xx/xx/xx";
+
+/* Class = "UILabel"; text = "Document Hash Type:"; ObjectID = "iEt-S2-vMU"; */
+"iEt-S2-vMU.text" = "Document Hash Type:";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "krS-Um-p9L"; */
+"krS-Um-p9L.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Image Output Flag Settings"; ObjectID = "mKz-7Y-lEe"; */
+"mKz-7Y-lEe.text" = "Image Output Flag Settings";
+
+/* Class = "UILabel"; text = "Integrity Details:"; ObjectID = "msm-4A-wwF"; */
+"msm-4A-wwF.text" = "Integrity Details:";
+
+/* Class = "UILabel"; text = "Why:"; ObjectID = "nex-e7-mGJ"; */
+"nex-e7-mGJ.text" = "Why:";
+
+/* Class = "UILabel"; text = "Ink Colour:"; ObjectID = "oQR-R0-vPX"; */
+"oQR-R0-vPX.text" = "Ink Colour:";
+
+/* Class = "UIButton"; normalTitle = "www.wacom.com"; ObjectID = "oUd-a4-xHt"; */
+"oUd-a4-xHt.normalTitle" = "www.wacom.com";
+
+/* Class = "UITextField"; text = "600"; ObjectID = "oYH-BR-6iK"; */
+"oYH-BR-6iK.text" = "600";
+
+/* Class = "UILabel"; text = "Capture Details"; ObjectID = "pNK-2N-uSn"; */
+"pNK-2N-uSn.text" = "Capture Details";
+
+/* Class = "UILabel"; text = "Signature Details:"; ObjectID = "rtS-DH-jJR"; */
+"rtS-DH-jJR.text" = "Signature Details:";
+
+/* Class = "UILabel"; text = "Digitizer:"; ObjectID = "sMI-sC-UP3"; */
+"sMI-sC-UP3.text" = "Digitizer:";
+
+/* Class = "UILabel"; text = "Version 1.0.17"; ObjectID = "sgS-b4-BMR"; */
+"sgS-b4-BMR.text" = "Version 1.0.17";
+
+/* Class = "UITextField"; placeholder = "Enter a MAC value"; ObjectID = "t9o-UG-N98"; */
+"t9o-UG-N98.placeholder" = "Enter a MAC value";
+
+/* Class = "UITextField"; placeholder = "What is signed"; ObjectID = "tRg-hP-cxe"; */
+"tRg-hP-cxe.placeholder" = "What is signed";
+
+/* Class = "UILabel"; text = "X Padding:"; ObjectID = "toY-pb-VU2"; */
+"toY-pb-VU2.text" = "X Padding:";
+
+/* Class = "UILabel"; text = "Version X.X.X"; ObjectID = "vD4-s2-IcT"; */
+"vD4-s2-IcT.text" = "Version X.X.X";
+
+/* Class = "UILabel"; text = "Don't Scale Output:"; ObjectID = "wUG-dv-tcH"; */
+"wUG-dv-tcH.text" = "Don't Scale Output:";
+
+/* Class = "UILabel"; text = "Joss Giffard-Burley"; ObjectID = "xNW-jE-ePI"; */
+"xNW-jE-ePI.text" = "Joss Giffard-Burley";

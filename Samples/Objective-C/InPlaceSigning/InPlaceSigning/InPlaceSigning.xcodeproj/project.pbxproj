@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89BD73361B9DE39F00FDCBB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD73351B9DE39F00FDCBB9 /* main.m */; };
+		89BD73391B9DE39F00FDCBB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD73381B9DE39F00FDCBB9 /* AppDelegate.m */; };
+		89BD733C1B9DE39F00FDCBB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD733B1B9DE39F00FDCBB9 /* ViewController.m */; };
+		89BD733F1B9DE39F00FDCBB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BD733D1B9DE39F00FDCBB9 /* Main.storyboard */; };
+		89BD73411B9DE39F00FDCBB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BD73401B9DE39F00FDCBB9 /* Images.xcassets */; };
+		89BD73441B9DE39F00FDCBB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89BD73421B9DE39F00FDCBB9 /* LaunchScreen.xib */; };
+		89BD73611B9DE61900FDCBB9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BD73601B9DE61900FDCBB9 /* libc++.dylib */; };
+		89BD73631B9DE61E00FDCBB9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BD73621B9DE61E00FDCBB9 /* CoreBluetooth.framework */; };
+		89BD73691B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD73671B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.m */; };
+		89BD736A1B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89BD73681B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.xib */; };
+		89C3874420221311006EB9DF /* WacomSignatureSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C3874320221311006EB9DF /* WacomSignatureSDK.framework */; };
+		89C3874620221319006EB9DF /* WacomSignatureSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89C3874320221311006EB9DF /* WacomSignatureSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89DA1DEE2024CF5D0056BE5C /* WacomLicensing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DA1DED2024CF5D0056BE5C /* WacomLicensing.framework */; };
+		89DA1DEF2024D0C50056BE5C /* WacomLicensing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DA1DED2024CF5D0056BE5C /* WacomLicensing.framework */; };
+		89DA1DF02024D0C50056BE5C /* WacomLicensing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89DA1DED2024CF5D0056BE5C /* WacomLicensing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89C387472022131A006EB9DF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				89C3874620221319006EB9DF /* WacomSignatureSDK.framework in Embed Frameworks */,
+				89DA1DF02024D0C50056BE5C /* WacomLicensing.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89BD73301B9DE39F00FDCBB9 /* InPlaceSigning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InPlaceSigning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BD73341B9DE39F00FDCBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BD73351B9DE39F00FDCBB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89BD73371B9DE39F00FDCBB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89BD73381B9DE39F00FDCBB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89BD733A1B9DE39F00FDCBB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89BD733B1B9DE39F00FDCBB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89BD733E1B9DE39F00FDCBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89BD73401B9DE39F00FDCBB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89BD73431B9DE39F00FDCBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		89BD73601B9DE61900FDCBB9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		89BD73621B9DE61E00FDCBB9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		89BD73661B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignaturePreviewCellCollectionViewCell.h; sourceTree = "<group>"; };
+		89BD73671B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignaturePreviewCellCollectionViewCell.m; sourceTree = "<group>"; };
+		89BD73681B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignaturePreviewCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		89C3874320221311006EB9DF /* WacomSignatureSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WacomSignatureSDK.framework; path = ../../../../sdk/WacomSignatureSDK.framework; sourceTree = "<group>"; };
+		89DA1DED2024CF5D0056BE5C /* WacomLicensing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WacomLicensing.framework; path = ../../../../sdk/WacomLicensing.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89BD732D1B9DE39F00FDCBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BD73631B9DE61E00FDCBB9 /* CoreBluetooth.framework in Frameworks */,
+				89DA1DEF2024D0C50056BE5C /* WacomLicensing.framework in Frameworks */,
+				89C3874420221311006EB9DF /* WacomSignatureSDK.framework in Frameworks */,
+				89BD73611B9DE61900FDCBB9 /* libc++.dylib in Frameworks */,
+				89DA1DEE2024CF5D0056BE5C /* WacomLicensing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89BD73271B9DE39F00FDCBB9 = {
+			isa = PBXGroup;
+			children = (
+				89BD73321B9DE39F00FDCBB9 /* InPlaceSigning */,
+				89BD73651B9F255D00FDCBB9 /* Frameworks */,
+				89BD73311B9DE39F00FDCBB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89BD73311B9DE39F00FDCBB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89BD73301B9DE39F00FDCBB9 /* InPlaceSigning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89BD73321B9DE39F00FDCBB9 /* InPlaceSigning */ = {
+			isa = PBXGroup;
+			children = (
+				89BD73371B9DE39F00FDCBB9 /* AppDelegate.h */,
+				89BD73381B9DE39F00FDCBB9 /* AppDelegate.m */,
+				89BD733A1B9DE39F00FDCBB9 /* ViewController.h */,
+				89BD733B1B9DE39F00FDCBB9 /* ViewController.m */,
+				89BD733D1B9DE39F00FDCBB9 /* Main.storyboard */,
+				89BD73401B9DE39F00FDCBB9 /* Images.xcassets */,
+				89BD73421B9DE39F00FDCBB9 /* LaunchScreen.xib */,
+				89BD73331B9DE39F00FDCBB9 /* Supporting Files */,
+				89BD736B1B9F283000FDCBB9 /* SignaturePreviewCells */,
+			);
+			path = InPlaceSigning;
+			sourceTree = "<group>";
+		};
+		89BD73331B9DE39F00FDCBB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89BD73341B9DE39F00FDCBB9 /* Info.plist */,
+				89BD73351B9DE39F00FDCBB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89BD73651B9F255D00FDCBB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89DA1DED2024CF5D0056BE5C /* WacomLicensing.framework */,
+				89C3874320221311006EB9DF /* WacomSignatureSDK.framework */,
+				89BD73621B9DE61E00FDCBB9 /* CoreBluetooth.framework */,
+				89BD73601B9DE61900FDCBB9 /* libc++.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89BD736B1B9F283000FDCBB9 /* SignaturePreviewCells */ = {
+			isa = PBXGroup;
+			children = (
+				89BD73661B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.h */,
+				89BD73671B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.m */,
+				89BD73681B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.xib */,
+			);
+			name = SignaturePreviewCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89BD732F1B9DE39F00FDCBB9 /* InPlaceSigning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89BD73531B9DE39F00FDCBB9 /* Build configuration list for PBXNativeTarget "InPlaceSigning" */;
+			buildPhases = (
+				89BD732C1B9DE39F00FDCBB9 /* Sources */,
+				89BD732D1B9DE39F00FDCBB9 /* Frameworks */,
+				89BD732E1B9DE39F00FDCBB9 /* Resources */,
+				89C387472022131A006EB9DF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InPlaceSigning;
+			productName = InPlaceSigning;
+			productReference = 89BD73301B9DE39F00FDCBB9 /* InPlaceSigning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89BD73281B9DE39F00FDCBB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Wacom;
+				TargetAttributes = {
+					89BD732F1B9DE39F00FDCBB9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 89BD732B1B9DE39F00FDCBB9 /* Build configuration list for PBXProject "InPlaceSigning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89BD73271B9DE39F00FDCBB9;
+			productRefGroup = 89BD73311B9DE39F00FDCBB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89BD732F1B9DE39F00FDCBB9 /* InPlaceSigning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89BD732E1B9DE39F00FDCBB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BD733F1B9DE39F00FDCBB9 /* Main.storyboard in Resources */,
+				89BD73441B9DE39F00FDCBB9 /* LaunchScreen.xib in Resources */,
+				89BD73411B9DE39F00FDCBB9 /* Images.xcassets in Resources */,
+				89BD736A1B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89BD732C1B9DE39F00FDCBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BD733C1B9DE39F00FDCBB9 /* ViewController.m in Sources */,
+				89BD73391B9DE39F00FDCBB9 /* AppDelegate.m in Sources */,
+				89BD73691B9F282A00FDCBB9 /* SignaturePreviewCellCollectionViewCell.m in Sources */,
+				89BD73361B9DE39F00FDCBB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89BD733D1B9DE39F00FDCBB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89BD733E1B9DE39F00FDCBB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89BD73421B9DE39F00FDCBB9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89BD73431B9DE39F00FDCBB9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89BD73511B9DE39F00FDCBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		89BD73521B9DE39F00FDCBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89BD73541B9DE39F00FDCBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../sdk\"",
+				);
+				INFOPLIST_FILE = InPlaceSigning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wacom.gss.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89BD73551B9DE39F00FDCBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../sdk\"",
+				);
+				INFOPLIST_FILE = InPlaceSigning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wacom.gss.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89BD732B1B9DE39F00FDCBB9 /* Build configuration list for PBXProject "InPlaceSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BD73511B9DE39F00FDCBB9 /* Debug */,
+				89BD73521B9DE39F00FDCBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89BD73531B9DE39F00FDCBB9 /* Build configuration list for PBXNativeTarget "InPlaceSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BD73541B9DE39F00FDCBB9 /* Debug */,
+				89BD73551B9DE39F00FDCBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89BD73281B9DE39F00FDCBB9 /* Project object */;
+}
