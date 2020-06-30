@@ -13,7 +13,7 @@ As well as providing the mechanisms for signature capture, the SDK includes:
 * High quality PNG, JPG and UIImage export of captured signature data
 
 
-The Wacom Signature SDK supports iOS 10 or newer using Xcode 8.0 or above.
+The Wacom Ink SDK for signature supports iOS 10 or newer using Xcode 8.0 or above.
 The framework is compiled for x86_64, arm7 and arm64 architectures.
 
 ## Overview
@@ -42,18 +42,18 @@ Once the signature capture is complete, the SDK calls the relevant delegate meth
 Licensing
 ---------
 
-The Wacom Signature SDK uses the standard Wacom License System provided by the WacomLicensing framework.
+The Wacom Ink SDK for signature uses the standard Wacom License System provided by the WacomLicensing framework.
 License keys (both evaluation and production) can be obtained from the Wacom Developer site at http://developer.wacom.com or from your Wacom account manager.
 
 
 Basic Usage
 -----------
 
-The Wacom Signature SDK for iOS has three main classes: SignatureCapture, SigningView and SignatureObject.
+The Wacom Ink SDK for signature for iOS has three main classes: SignatureCapture, SigningView and SignatureObject.
 
-Before you call any of the Signature SDK classes, you will need to load your license into the Wacom License System using the `LicenseValidator` class (see 'Licensing' above).
+Before you call any of the SDK classes, you will need to load your license into the Wacom License System using the `LicenseValidator` class (see 'Licensing' above).
 If there are any issues with the license, the validator will return the error state to the NSError object, or throw an exception.
-If you try to use the Signature SDK without loading a license into the validator, or with an invalid license loaded into the validator, then an exception will be thrown.
+If you try to use the SDK without loading a license into the validator, or with an invalid license loaded into the validator, then an exception will be thrown.
 
 The SignatureCapture class presents the end user with the signature capture window.
 It allows you to define various options related to signature data (e.g. signatory, signature hash type etc.) as well as presentation options such as the ink colour to use when rendering the signature.
@@ -132,7 +132,7 @@ SignatureCapture *sc = [[SignatureCapture alloc] initWithDelegate:self];
 Block Support
 -------------
 
-In addition to the delegate style callback, the signature SDK now has support for blocks to allow in-line processing of signature data.
+In addition to the delegate style callback, the Wacom Ink SDK for signature now has support for blocks to allow in-line processing of signature data.
 To capture a signature using blocks, you will need to create a signature capture object, then call the 'openCaptureWindowWithSignatory:andReason:boundToData:fromController:successfulCaptureHandler:cancelHandler:' to capture a signature:
 
 ~~~Objective-C
@@ -156,7 +156,7 @@ SignatureCapture *sc = [[SignatureCapture alloc] init];
 In Place Signing
 ----------------
 
-If you wish to customise the capture window, the signature SDK has support for 'in place signing'.
+If you wish to customise the capture window, the SDK has support for 'in place signing'.
 This supplies a transparent UIView derived SigningView class that allows signature data to be collected.
 The current signature data rendered within the SigningView class can be retrieved by calling the 'currentSignatureData' method on the SigningView, e.g.:
 

@@ -11,20 +11,20 @@ The framework is compiled for x86_64, arm7 and arm64 architectures.
 
 In addition to the 'WacomSignatureSDK.framework' and 'WacomLicensing.framework' you also need to link your app against the 'libstdc++.dylib' and 'CoreBluetooth.framework' libraries and ensure that the Swift runtime libraries are included in your build target.
 
-## Download the Signature SDK
+## Download the Wacom Ink SDK for signature
 
 Download the SDK from https://developer.wacom.com/developer-dashboard
 
 * login using your Wacom ID
 * Select **Downloads for signature**
-* Download **Signature SDK for iOS**
+* Download **Wacom Ink SDK for signature for iOS**
 * Accept the End User License Agreement to use the SDK
 
 The downloaded Zip file contains the SDK with documentation.
 
 ## Download an evaluation license
 
-A license is needed to use the Signature SDK and a fully functional evaluation license is free to download as follows:
+A license is needed to use the Wacom Ink SDK for signature and a fully functional evaluation license is free to download as follows:
 
 * Navigate to https://developer.wacom.com/developer-dashboard
 * login using your Wacom ID
@@ -40,9 +40,9 @@ The self-service evaluation licenses have a three-month expiry date from the tim
 However you can generate a new license at any time.
 
 
-## Install the Signature SDK
+## Install the Wacom Ink SDK for signature
 
-To use the Wacom Signature SDK in your project:
+To use the Wacom Ink SDK for signature in your project:
 
 * Add the 'libc++.dylib' into the "Linked Frameworks and Libraries" list within the "General Settings" of the project build target
 * Add 'CoreBluetooth.framework' into the "Linked Frameworks and Libraries" list within the "General Settings" of the project build target
@@ -53,7 +53,7 @@ To use the Wacom Signature SDK in your project:
 * Import the '<WacomSignatureSDK/WacomSignatureSDK.h>' header
 * Import the '#import <WacomLicensing/WacomLicensing-Swift.h> header 
 
-Your project is now configured to use the Wacom Signature SDK.
+Your project is now configured to use the Wacom Ink SDK for signature.
 
 ### Install the License
 
@@ -75,7 +75,7 @@ To load a license into the license system use the 'iniLicense method on the Lice
 }
 ~~~
 
-## Guide to using the Signature SDK in SWIFT
+## Guide to using the Wacom Ink SDK for signature in SWIFT
 ---
 
 Swift’s compatibility with Objective-C allows you to use the Wacom Signature-SDK directly from Swift code with a minimal amount of configuration.
@@ -97,7 +97,7 @@ Once the signature capture is complete, the SDK calls the relevant delegate meth
 
 ### Configuring the SDK for use in SWIFT
 
-To use the Wacom Signature SDK in your project, you first need to copy and configure the resources:
+To use the Wacom Ink SDK for signature in your project, you first need to copy and configure the resources:
 
 * Add the 'libc++.dylib' into the "Linked Frameworks and Libraries" list within the "General Settings" of the project build target
 * Add 'CoreBluetooth.framework' into the "Linked Frameworks and Libraries" list within the "General Settings" of the project build target
@@ -122,7 +122,7 @@ The SignatureObject, SignatureCapture and SigningView are now available directly
 
 ### Licensing
 
-The Wacom Signature SDK uses the standard Wacom License System provided by the WacomLicensing framework.
+The Wacom Ink SDK for signature uses the standard Wacom License System provided by the WacomLicensing framework.
 License keys (both evaluation and production) can be obtained from the Wacom Developer site at http://developer.wacom.com or from your Wacom account manager.
 Evaluation keys will display a watermark on the signature capture windows, but enable full functionality until the license expiration date.
 To load a license into the license system use the 'iniLicense method on the LicenseValidator's shared instance singleton:
@@ -173,19 +173,19 @@ enum SIGNATURE_CANCEL_REASON  {
 ~~~
 
 
-## Signature SDK Demo Application
+## Wacom Ink SDK for signature Demo Application
 ---
 
-Under the 'Samples/Objective-C/SignatureExample' directory is a full sample iOS app that uses the Signature SDK.
+Under the 'Samples/Objective-C/SignatureExample' directory is a full sample iOS app that uses the Wacom Ink SDK for signature.
 Simply double click the 'SignatureExample.xcodeproj' file to load the example into Xcode.
 Click on Product->Run to build and run the example app.
 
 A full working example of the 'Signature-SDK Demo App' written in  Swift is under the 'Samples/Swift' directory of the SDK distribution.
 The functionality of this app is identical to that of the Objective-C sample described below.
 
-## Guide to using the Signature SDK Demo App
+## Guide to using the Wacom Ink SDK for signature Demo App
 
-The example app serves as an example of how to use the Signature SDK in a real iOS app.
+The example app serves as an example of how to use the Wacom Ink SDK for signature in a real iOS app.
 The sample also includes some sample signatures in PNG, text and binary format, as well as two PDF documents to use as file hashes.
 The app supports iTunes file sharing allowing access to the apps "Documents" folder within iTunes.
 This allows you to examine the captured signature data on the host development system.
@@ -238,7 +238,7 @@ If there is no signature data, or there is a file system error, the app will dis
 
 ### Capture
 
-Tapping on the capture icon will open the signature capture screen as provided by the Signature SDK.
+Tapping on the capture icon will open the signature capture screen as provided by the Wacom Ink SDK for signature.
 The "who" and "why" parameter are provided by the contents of the "Who" and "Why" fields of the main view controller.
 The values set on the "Capture Settings" screen (see below) define the other capture options.
 
@@ -299,7 +299,7 @@ The "Validate Signature" button will pop-up an alert dialog that details the cur
 
 ### About
 
-The about screen simply displays the Signature SDK version information along with a human readable version of the license information:
+The about screen simply displays the SDK version information along with a human readable version of the license information:
 
 ![About Screen](media/about.png)
 

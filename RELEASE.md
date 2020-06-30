@@ -1,4 +1,4 @@
-# Signature SDK iOS
+# Wacom Ink SDK for Signature for iOS
 
 ## Version 2.0.4
 
