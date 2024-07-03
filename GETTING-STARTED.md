@@ -15,10 +15,10 @@ In addition to the 'WacomSignatureSDK.framework' and 'WacomLicensing.framework' 
 
 Download the SDK from https://developer.wacom.com/developer-dashboard
 
-* login using your Wacom ID
-* Select **Downloads for signature**
-* Download **Wacom Ink SDK for signature for iOS**
-* Accept the End User License Agreement to use the SDK
+* Login using your Wacom ID
+* Navigate to **Downloads for signature**
+* Select **More info** on **WILL SDK for ink for iOS**
+* Accept the End User License Agreement and select **Download** to use the SDK
 
 The downloaded Zip file contains the SDK with documentation.
 
