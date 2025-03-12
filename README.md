@@ -1,5 +1,7 @@
 # Wacom Ink SDK for signature - iOS
 
+> **NB: This series of Wacom products is now discontinued and support for them is no longer offered.** 
+
 ## Introduction
 
 ---
